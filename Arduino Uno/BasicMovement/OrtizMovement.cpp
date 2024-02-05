@@ -1,9 +1,9 @@
 #include "OrtizMovement.h"
 
-int motor1pin1 = 2;
-int motor1pin2 = 3;
-int motor2pin1 = 4;
-int motor2pin2 = 5;
+int motor1pin1 = 5;
+int motor1pin2 = 6;
+int motor2pin1 = 7;
+int motor2pin2 = 8;
 void setup() {
   // put your setup code here, to run once:
   pinMode(motor1pin1, OUTPUT);
